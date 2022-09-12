@@ -1,0 +1,104 @@
+.navbar {
+    background-color: white;
+    display: flex;
+    flex: 1;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+    box-shadow: 0 0 10px 0 gray;
+    position: relative;
+  }
+  
+.navbar div {
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+  }
+  
+  .navbar button:hover {
+    background-color: gray;
+  }
+  .navbar a {
+    text-decoration: none;
+  }
+  .bar-icon {
+    display: none;
+  }
+  .navbar input {
+    border: none;
+    margin-left: 1%;
+    flex: 1;
+    outline: none;
+    margin-top: 12px;
+    font-size: 130%;
+  }
+  
+  .out {
+    padding: 0.5%;
+    color: black;
+    background: white;
+    border: 1px solid black;
+  }
+  .log_in {
+    padding: 0.5%;
+    color: black;
+    background: white;
+    border: 1px solid black;
+  }
+  
+  .navbar .search-container {
+    display: flex;
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 20px;
+    flex: 1;
+    max-width: 80%;
+    height: 50px;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+  }
+  .search-container form {
+    display: flex;
+    flex: 1;
+  }
+  #searchIcon {
+    border: none;
+    background-color: white;
+    margin-top: 50%;
+    margin-left: 10%;
+  }
+  .navbar .search-container i {
+    font-size: 130%;
+  }
+  .link_Udemy {
+    color: black;
+  }
+  .link_Udemy:hover {
+    color: blue;
+  }
+  .earth {
+    border: 1px gray solid;
+    padding: 0.5%;
+  }
+  .earth:hover {
+    background-color: gray;
+  }
+  @media (max-width: 1000px) {
+    
+    .bar-icon {
+      display: block;
+      font-size: 30px;
+      margin-left: 20px;
+      position: relative;
+    }
+    .navbar {
+      display: flex;
+      justify-content: space-between;
+    }
+    .active {
+      margin-left: calc(100vw - 200px);
+    }
+    .mobile{
+        visibility: hidden
+    }
+
+  }

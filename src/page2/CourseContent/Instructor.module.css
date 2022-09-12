@@ -1,0 +1,28 @@
+.InstructorDetail {
+    display: flex;
+    margin-bottom: 30px;
+}
+.Name{
+    color: #5624d0;
+    font-size: 20px;
+    font-weight: 600;
+}
+.UpperPhoto{
+    color: #6a6f73;
+    font-size: 20px;
+}
+.Photo{
+    border-radius: 50%;
+    margin-right: 30px;
+}
+.SymolBox{
+    margin-top: 30px;
+}
+.Symbol{
+    margin: 10px 15px;
+}
+
+
+
+
+

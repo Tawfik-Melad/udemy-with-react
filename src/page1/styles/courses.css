@@ -1,0 +1,45 @@
+.all_links {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 7%;
+    display: inline;
+    display: flex;
+    flex: 1;
+  }
+  .all_links a {
+    text-decoration: none;
+    flex: 1;
+    margin-left: 10px;
+    direction: none;
+  
+    font-size: 1.2rem;
+    color: darkgrey;
+  }
+  .all_links a:hover {
+    color: black;
+  }
+  
+  .courses {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-around;
+    margin-left: 5%;
+    width: 90%;
+    border: 1px gray solid;
+    box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
+  }
+  
+  .courses_text {
+    margin-left: 5%;
+  }
+  
+  .explore button:hover {
+    background-color: gray;
+  }
+.make-gold{
+  color: gold;
+}  
+.categories{
+  margin-left: 5%;
+}
