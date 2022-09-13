@@ -6,7 +6,7 @@ function CourseList(props) {
     const makeOne = (item, index) => (
 
         <Accordion.Item eventKey={index}>
-            <Accordion.Header>{item[0]}</Accordion.Header>
+            <Accordion.Header>{item[0]} {<p className={Styles.left}>{item[1].length} lectures. { item[1].length*10/5}min</p>} </Accordion.Header>
             <Accordion.Body >
                 <ul>
                     {item[1].map((element) => <li><i class="fa-solid fa-circle-play"></i>{element}</li>)}

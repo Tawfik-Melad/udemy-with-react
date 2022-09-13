@@ -40,8 +40,8 @@ function Reviews(props) {
                 </div>
                 <div>
                     <span className={Styles.Review}>Helpful</span>
-                    <HandThumbsUp className={ Styles.Like } />
-                    <HandThumbsDown className={ Styles.Like }/>
+                    <span className={Styles.Lik}> <HandThumbsUp className={ Styles.Like } />  </span>
+                    <span className={Styles.unLik}>  <HandThumbsDown className={ Styles.Like }/></span>
                 </div>
                 </div>
                 )}

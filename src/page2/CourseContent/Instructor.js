@@ -5,7 +5,7 @@ import { PeopleFill } from 'react-bootstrap-icons'
 import { CaretRightSquareFill } from 'react-bootstrap-icons'
 import Styles from './Instructor.module.css'
 import Data from '../data-2.json'
-
+import ShowMore from 'react-show-more-button';
 function makeOne(item) {
 
 }
@@ -46,9 +46,14 @@ function Instructor(props) {
                         </div>
                     </div>
                     <div>
-                        <p>
+                       
+                        <ShowMore maxHeight={100}>
+            
+                      
                             {item.description}
-                        </p>
+                            
+                        
+                        </ShowMore>
                     </div>
                 </div>
             )}

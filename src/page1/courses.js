@@ -27,7 +27,7 @@ export default function Courses(props) {
                           learning. You’ll learn how to build everything from games to
                           sites to apps. Choose from a range of courses that will appeal to</p>
               <div className="my-4">
-                  <button><b>Explore more</b></button>
+                  <button className="explore"><b>Explore more</b></button>
               </div>
         </div>
         <div className='row'>

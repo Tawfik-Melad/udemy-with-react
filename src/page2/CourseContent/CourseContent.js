@@ -21,7 +21,7 @@ function CourseContent(props) {
                 <CourseList info={ props.info}/>
                 <Description info={ props.info}/>
                 <Instructor info={ props.info}/>
-                <Feedback />
+                <Feedback info={props.info}/>
                 <Reviews info={props.info} />
                 
             </div>

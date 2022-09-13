@@ -40,6 +40,9 @@
     margin-top: 70px;
     width: 60%;
 }
+.shefted spam{
+    margin: 2%;
+}
 @media (max-width: 1100px) {
     .DarkBox{
         display: none;

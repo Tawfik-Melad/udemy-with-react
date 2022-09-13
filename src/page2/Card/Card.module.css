@@ -3,11 +3,12 @@
     background-color: white;
     width: 400px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 8%);
-    top: 120px;
-   
-    position: absolute;
-   
+   top :120px;
+   position:absolute;
   margin-left: 60%;
+}
+.scorl_card{
+   
 }
 .UpBox{
     border-bottom: 1px solid #d1d7dc;
@@ -16,7 +17,9 @@
 .Arrow{
 
 }
-
+.shefted spam{
+    margin: 2%;
+}
 .Price{
     font-weight: bold;
     font-size: 30px;
@@ -136,5 +139,6 @@
         margin-top: 70px;
         width: 60%;
     }
+    
     
 }

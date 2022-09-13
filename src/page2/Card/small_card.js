@@ -35,6 +35,11 @@ const SmallCard = (props) => {
                             props?.info?.instructor.map((item) => <span className={Styles.PeopleRate}>{item.name}</span>)
                         }
                     </div>
+                    <div className={Styles.shefted}>
+                        <spam ><i class="fa-solid fa-exclamation"></i> Last updated  {props?.info?.lastUpdate}</spam>
+                        <spam ><i class="fa-sharp fa-solid fa-globe"></i> {props?.info?.globe}</spam>
+                        <spam ><i class="fa-solid fa-closed-captioning"></i> {props?.info?.Captioning}</spam>
+                    </div>
                 </div>
 
             </div>

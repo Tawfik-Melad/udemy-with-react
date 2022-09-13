@@ -38,9 +38,17 @@
     height: 25px;
     margin: 5px;
     cursor: pointer;
-    color: black;
+
+   
+    
+
 }
 .Star{
     color: rgb(250, 175, 0);;
 }
+.lik{
+    border-radius: 50%;
+    border: 1px solid #1c1d1f;
+}
+
 

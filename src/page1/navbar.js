@@ -21,7 +21,7 @@ export default function Navbar() {
       </div>
 
       <div>
-        <a className="Categories mobile">Categories</a>
+        <a className="Categories_mobile" >Categories</a>
       </div>
       <div className="search-container mobile">
         <form action="/action_page.php" className="mobile">
@@ -46,7 +46,7 @@ export default function Navbar() {
         </a>
       </div>
       <div>
-        <a className="link_Udemy mobile" href="#">
+        <a className="link_Udemy mobile" href="#" >
           Teach on Udemy
         </a>
 

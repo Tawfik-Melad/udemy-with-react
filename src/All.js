@@ -6,6 +6,7 @@ import Midel from "./page1/midel";
 import Courses from "./page1/courses";
 import Categories from './page1/categories'
 import CoursePage from './page2/CoursePage'
+import DarkFooter from "./DarkFooter";
 export default function All() {
   const [data, setdata] = useState([]);
   useEffect(() => {
@@ -29,6 +30,7 @@ export default function All() {
         <Route path="/course4" element={<CoursePage info={data[3]}/>} />
         <Route path="*" element={<> <Midel  /><Courses info={data}/><Categories />  </>} />
       </Routes>
+      <DarkFooter/>
     </Router>
     </div>
   )

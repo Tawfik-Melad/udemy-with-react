@@ -4,6 +4,7 @@ import DarkContainer from './DarkContainer/DarkContainer'
 import CourseContent from './CourseContent/CourseContent'
 import './course_page.css'
 import Card from './Card/Card'
+import DarkFooter from "../DarkFooter";
 function CourcesPage(props) {
     return (
           
