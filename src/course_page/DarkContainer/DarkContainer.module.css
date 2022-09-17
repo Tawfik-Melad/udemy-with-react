@@ -1,0 +1,70 @@
+.DarkContainer{
+    background-color: #1c1d1f;;
+    width: 100%;
+    height: 400px;
+    color: white;
+    overflow: hidden ;
+}
+.DarkBox{
+   width: 70%;
+
+}
+.Development{
+    color: #cec0fc;
+    font-weight: 700;
+}
+
+.paragraph{
+    font-weight: 600px;
+    font-size: 32px;
+}
+.Rate{
+    color: #f3ca8c;;
+  
+}
+.Star{
+    color: #f3ca8c;
+}
+.PeopleRate{
+    color: #cec0fc;
+    text-decoration: underline;
+    padding: 0 5px;
+}
+
+
+.Arraw{
+    color: white;
+}
+.Container{
+    margin-left: 10%;
+    margin-top: 70px;
+    width: 60%;
+}
+.shefted spam{
+    margin: 2%;
+}
+@media (max-width: 1100px) {
+    .DarkBox{
+        display: none;
+        margin: 0;
+    }
+    .DarkContainer{
+        background-color: #1c1d1f;;
+        width: 100%;
+        height: 40%;
+        color: white;
+        overflow: hidden ;
+    }
+    
+    
+
+  }
+  @media (min-width: 1099px) {
+   .at_mide_card{
+     display: none;
+   }
+   .continer{
+    width: 700px;
+   }
+
+  }

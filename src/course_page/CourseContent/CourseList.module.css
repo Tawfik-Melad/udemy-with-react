@@ -1,0 +1,9 @@
+.left{
+    position:absolute;
+    left: 69%;
+}
+@media (max-width: 1300px) {
+    .left{
+        visibility: hidden;
+    }
+}

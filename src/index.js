@@ -1,12 +1,12 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import All from './All'
+import Main from './Main_component'
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
  
   <div>
-    <All />
+    <Main />
   </div>
  
 );

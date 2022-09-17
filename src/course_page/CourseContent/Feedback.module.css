@@ -1,0 +1,60 @@
+.content{
+    display: flex;
+    
+}
+.RatingNumber{
+    padding: 0 30px;
+}
+.Head{
+    color: #b4690e;
+    font-weight: bold;
+    font-size: 60px;
+
+}
+.Rating{
+    color: #b4690e;
+    font-weight: 700;
+   
+}
+.Star{
+    color: rgb(250, 175, 0);
+}
+.Range{
+    background-color: #d1d7dc;
+    width: 200px;
+    height: 7px;
+    margin: 10px 0; 
+}
+.RangeMark{
+    background-color: #6a6f73 ;
+    width: 25%;
+    height: 7px;
+}
+.RangeMark1{
+    background-color: #6a6f73 ;
+    width: 5%;
+    height: 7px;
+}
+.RangeMark2{
+    background-color: #6a6f73 ;
+    width: 50%;
+    height: 7px;
+}
+.RangeMark3{
+    background-color: #6a6f73 ;
+    width: 75%;
+    height: 7px;
+}
+.RangeMark4{
+    background-color: #6a6f73 ;
+    width: 100%;
+    height: 7px;
+}
+.RangeBox{
+    display: flex;
+}
+.RangeBox .Star{
+    margin-left: 10px;
+}
+
+
