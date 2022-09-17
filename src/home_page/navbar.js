@@ -9,6 +9,7 @@ export default function Navbar(props) {
     props.search(word)
     setword('');
     navigate('/');
+    event.preventDefault();
   };
 
   return (

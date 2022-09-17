@@ -20,22 +20,22 @@ export default function All() {
       .catch((err) => {
       })
   }, []);
- 
-  {console.log('////////////////')}
-  {console.log(searchWord)}
-  {console.log('////////////////')}
+
+  { console.log('////////////////') }
+  { console.log(searchWord) }
+  { console.log('////////////////') }
   return (
-   
+
     <div>
       <Router>
-        <Navbar search={((word)=>setSearchWord(word))}/>
+        <Navbar search={((word) => setSearchWord(word))} />
         <Routes>
           <Route path="/" element={<> <Midel />  {data.length > 0 ? <Courses info={data} target={searchWord} /> : <Spinner />}<Categories />  </>} />
           {
             data.map((course) => <Route path={'/' + course.id}
               element={<CoursePage info={course} />} />)
           }
-          <Route path="*" element={<> <Midel />  {data.length > 0 ? <Courses info={data} /> : <Spinner />}<Categories />  </>} />
+          <Route path="*" element={<> <Midel />  {data.length > 0 ? <Courses info={data} target={searchWord} /> : <Spinner />}<Categories />  </>} />
         </Routes>
         <DarkFooter />
       </Router>
