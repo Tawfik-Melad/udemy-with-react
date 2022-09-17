@@ -7,7 +7,6 @@ export default function Navbar(props) {
   const [word, setword] = useState('');
   const handleSubmit = event => {
     props.search(word)
-    setword('');
     navigate('/');
     event.preventDefault();
   };
@@ -21,7 +20,6 @@ export default function Navbar(props) {
         <a className="active">
           <img onClick={() => {
             props.search('')
-            setword('');
             navigate('/');
           }}
             src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"

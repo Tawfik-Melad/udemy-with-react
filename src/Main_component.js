@@ -21,9 +21,7 @@ export default function All() {
       })
   }, []);
 
-  { console.log('////////////////') }
-  { console.log(searchWord) }
-  { console.log('////////////////') }
+
   return (
 
     <div>
