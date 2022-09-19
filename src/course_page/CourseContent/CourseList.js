@@ -18,12 +18,12 @@ function CourseList(props) {
     return (
         <div>
             <h3>Course Content</h3>
-            <div>{props?.info?.sectionsCount} sections
-                • {props?.info?.lecturesCount} lectures • {props?.info?.totalLength} total length</div>
+            <div>{props?.CourseList_data?.sectionsCount} sections
+                • {props?.CourseList_data?.lecturesCount} lectures • {props?.CourseList_data?.totalLength} total length</div>
             <div>
 
                 <Accordion  >
-                    {props?.info?.content.map(makeOne)}
+                    {props?.CourseList_data?.content.map(makeOne)}
                 </Accordion>
             </div>
         </div>

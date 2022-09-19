@@ -17,7 +17,7 @@ function Description(props) {
           <p>
            <Markup content={x1} />
             <h2>Who this course is for:</h2>
-            <p>{ props?.info?.whoFor}</p>
+            <p>{ props?.Description_data?.whoFor}</p>
           </p>
            </ShowMore>
            

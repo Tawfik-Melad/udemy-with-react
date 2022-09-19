@@ -10,7 +10,7 @@ function Instructor(props) {
     return (
         <div>
             <h3>Instructor</h3>
-            {props?.info?.instructor.map((item) =>
+            {props?.Instructor_data?.instructor.map((item) =>
                 <div>
                     <div>
                         <a href='#' className={Styles.Name}>{item.name}</a>

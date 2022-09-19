@@ -9,15 +9,15 @@ function Card(props) {
         <div className={Styles.Container}>
 
             <div >
-                <img alt='' src={props?.info?.image} width={400}></img>
-                {console.log(props?.info?.image)}
+                <img alt='' src={props?.card_data?.image} width={400}></img>
+                {console.log(props?.card_data?.image)}
             </div>
             <div className={Styles.scorl_card}>
             <div className={Styles.UpBox}>
                 <div>
-                    <span className={Styles.Price}>E£{props?.info?.price} </span>
-                    <span className={Styles.Discount}>E£{ props?.info?.originalPrice}</span>
-                    <span> {(((props?.info?.originalPrice-props?.info?.price)/props?.info?.originalPrice)*100).toFixed(0)}%  off</span> 
+                    <span className={Styles.Price}>E£{props?.card_data?.price} </span>
+                    <span className={Styles.Discount}>E£{ props?.card_data?.originalPrice}</span>
+                    <span> {(((props?.card_data?.originalPrice-props?.card_data?.price)/props?.card_data?.originalPrice)*100).toFixed(0)}%  off</span> 
                 </div>
                 <div className={Styles.Alarm}>
                     <Alarm/>

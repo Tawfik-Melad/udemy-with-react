@@ -9,9 +9,9 @@ function CourcesPage(props) {
     return (
           
         <div className="all-content">
-            <div> <Card info={ props.info} /></div>
-            <div> <DarkContainer info={ props.info} /></div>
-            <div><CourseContent info={ props.info}/></div>  
+            <div> <Card card_data={ props.course_data} /></div>
+            <div> <DarkContainer dardContainer_data={ props.course_data} /></div>
+            <div><CourseContent course_data={ props.course_data}/></div>  
            
         
         </div>

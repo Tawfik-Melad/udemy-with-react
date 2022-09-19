@@ -31,7 +31,7 @@ export default function Courses(props) {
                 </div>
             </div>
             <div className='row'>
-                {props?.info.map((course) =>
+                {props?.courses_data.map((course) =>
                     (course.title.toLowerCase().indexOf(props.target.toLowerCase()) != -1) && <Card info={course} />
                 )
                 }

@@ -8,7 +8,7 @@ function LearnBox(props) {
             <div className='Styles.content_flex'>
                 <ul className={Styles.ul}>
                     {
-                        props?.info?.overview.map((item) => <li><spam className={Styles.shefted} ><i class="fa-sharp fa-solid fa-check"></i></spam>{item}</li>)
+                        props?.learnBox_data?.overview.map((item) => <li><spam className={Styles.shefted} ><i class="fa-sharp fa-solid fa-check"></i></spam>{item}</li>)
                     }
                 </ul>
             </div>

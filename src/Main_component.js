@@ -8,7 +8,7 @@ import Categories from './home_page/categories'
 import CoursePage from './course_page/CoursePage'
 import DarkFooter from "./home_page/DarkFooter";
 import Spinner from './home_page/spinner';
-export default function All() {
+export default function App() {
   const [data, setdata] = useState([]);
   const [searchWord, setSearchWord] = useState("");
   useEffect(() => {
@@ -28,12 +28,12 @@ export default function All() {
       <Router>
         <Navbar search={((word) => setSearchWord(word))} />
         <Routes>
-          <Route path="/" element={<> <Midel />  {data.length > 0 ? <Courses info={data} target={searchWord} /> : <Spinner />}<Categories />  </>} />
+          <Route path="/" element={<> <Midel />  {data.length > 0 ? <Courses courses_data={data} target={searchWord} /> : <Spinner />}<Categories />  </>} />
           {
             data.map((course) => <Route path={'/' + course.id}
-              element={<CoursePage info={course} />} />)
+              element={<CoursePage course_data={course} />} />)
           }
-          <Route path="*" element={<> <Midel />  {data.length > 0 ? <Courses info={data} target={searchWord} /> : <Spinner />}<Categories />  </>} />
+          <Route path="*" element={<> <Midel />  {data.length > 0 ? <Courses courses_data={data} target={searchWord} /> : <Spinner />}<Categories />  </>} />
         </Routes>
         <DarkFooter />
       </Router>

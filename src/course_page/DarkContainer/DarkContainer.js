@@ -33,34 +33,34 @@ function DarkContainer(props) {
                     <a>Python</a>
                 </div>
                 <div className={Styles.at_mide_card}>
-                    <SmallCard info={props.info} />
+                    <SmallCard smallCard_data={props.dardContainer_data} />
                 </div>
                 <div className={Styles.DarkBox}>
                     <h2>
-                        {props?.info?.title}
+                        {props?.dardContainer_data?.title}
                     </h2>
                     <div className={Styles.paragraph}>
-                        {props?.info?.Introduction}
+                        {props?.dardContainer_data?.Introduction}
                     </div>
                     <div >
-                        <span className={Styles.Rate}>{props?.info?.rate}</span>
+                        <span className={Styles.Rate}>{props?.dardContainer_data?.rate}</span>
                         <span className={Styles.Star}>
-                            {buildRate(props?.info?.rate)}
+                            {buildRate(props?.dardContainer_data?.rate)}
                         </span>
-                        <span className={Styles.PeopleRate}>{props?.info?.ratingCount} Rating </span>
-                        {props?.info?.enrollCount} students
+                        <span className={Styles.PeopleRate}>{props?.dardContainer_data?.ratingCount} Rating </span>
+                        {props?.dardContainer_data?.enrollCount} students
                     </div>
                     <div>
                         Created by
                         {
-                            props?.info?.instructor.map((item) => <span className={Styles.PeopleRate}>{item.name}</span>)
+                            props?.dardContainer_data?.instructor.map((item) => <span className={Styles.PeopleRate}>{item.name}</span>)
                         }
 
                     </div>
                     <div className={Styles.shefted}>
-                        <spam ><i class="fa-solid fa-exclamation"></i> Last updated  {props?.info?.lastUpdate}</spam>
-                        <spam ><i class="fa-sharp fa-solid fa-globe"></i> {props?.info?.globe}</spam>
-                        <spam ><i class="fa-solid fa-closed-captioning"></i> {props?.info?.Captioning}</spam>
+                        <spam ><i class="fa-solid fa-exclamation"></i> Last updated  {props?.dardContainer_data?.lastUpdate}</spam>
+                        <spam ><i class="fa-sharp fa-solid fa-globe"></i> {props?.dardContainer_data?.globe}</spam>
+                        <spam ><i class="fa-solid fa-closed-captioning"></i> {props?.dardContainer_data?.Captioning}</spam>
                     </div>
                 </div>
             </div>

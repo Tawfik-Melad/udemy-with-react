@@ -22,7 +22,7 @@ function Reviews(props) {
         <div>
             <h2>Reviews</h2>
             <div className={Styles.Box}></div>
-            {props?.info?.reviews.map((item)=>
+            {props?.Reviews_data?.reviews.map((item)=>
             <div className={Styles.Box}>
                 <div className={Styles.Student}>
                     <div className={Styles.Icon}>

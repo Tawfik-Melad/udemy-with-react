@@ -17,12 +17,12 @@ function CourseContent(props) {
             
             <div className={Styles.CourseDetail}> 
           
-                <LearnBox info={ props.info} />
-                <CourseList info={ props.info}/>
-                <Description info={ props.info}/>
-                <Instructor info={ props.info}/>
-                <Feedback info={props.info}/>
-                <Reviews info={props.info} />
+                <LearnBox learnBox_data={ props.course_data} />
+                <CourseList CourseList_data={ props.course_data}/>
+                <Description Description_data={ props.course_data}/>
+                <Instructor Instructor_data={ props.course_data}/>
+                <Feedback Feedback_data={props.course_data}/>
+                <Reviews Reviews_data={props.course_data} />
                 
             </div>
            

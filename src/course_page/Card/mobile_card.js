@@ -20,34 +20,34 @@ const SmallCard = (props) => {
         <div>
             <div className={Styles.continer} >
                 <div >
-                    <img alt='' src={props?.info?.image} className={Styles.photo}></img>
+                    <img alt='' src={props?.smalCard_data?.image} className={Styles.photo}></img>
 
                 </div>
                 <div className={Styles.DarkBox}>
                     <h2>
-                        {props?.info?.title}
+                        {props?.smalCard_data?.title}
                     </h2>
                     <div className={Styles.paragraph}>
-                        {props?.info?.Introduction}
+                        {props?.smalCard_data?.Introduction}
                     </div>
                     <div >
-                        <span className={Styles.Rate}>{props?.info?.rate}</span>
+                        <span className={Styles.Rate}>{props?.smalCard_data?.rate}</span>
                         <span className={Styles.Star}>
-                            {buildRate(props?.info?.rate)}
+                            {buildRate(props?.smalCard_data?.rate)}
                         </span>
-                        <span className={Styles.PeopleRate}>({props?.info?.ratingCount}) Ratings</span>
-                        {props?.info?.enrollCount} students
+                        <span className={Styles.PeopleRate}>({props?.smalCard_data?.ratingCount}) Ratings</span>
+                        {props?.smalCard_data?.enrollCount} students
                     </div>
                     <div>
                         Created by
                         {
-                            props?.info?.instructor.map((item) => <span className={Styles.PeopleRate}>{item.name}</span>)
+                            props?.smalCard_data?.instructor.map((item) => <span className={Styles.PeopleRate}>{item.name}</span>)
                         }
                     </div>
                     <div className={Styles.shefted}>
-                        <spam ><i class="fa-solid fa-exclamation"></i> Last updated  {props?.info?.lastUpdate}</spam>
-                        <spam ><i class="fa-sharp fa-solid fa-globe"></i> {props?.info?.globe}</spam>
-                        <spam ><i class="fa-solid fa-closed-captioning"></i> {props?.info?.Captioning}</spam>
+                        <spam ><i class="fa-solid fa-exclamation"></i> Last updated  {props?.smalCard_data?.lastUpdate}</spam>
+                        <spam ><i class="fa-sharp fa-solid fa-globe"></i> {props?.smalCard_data?.globe}</spam>
+                        <spam ><i class="fa-solid fa-closed-captioning"></i> {props?.smalCard_data?.Captioning}</spam>
                     </div>
                 </div>
 
